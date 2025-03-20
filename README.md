@@ -58,10 +58,10 @@ http://localhost:3000/
 $ pwd
 
 # build docker image
-$ docker buildx build --target=debug --compress --secret id=npmrc,src=/Users/manjiiri/.npmrc -t zirkel-kafka-adapter:0.0.1-debug .
+$ docker buildx build --target=debug --compress --secret id=npmrc,src=/Users/manjiiri/.npmrc -t kafka-adapter:0.0.1-debug .
 
 # docker run
-$ docker run --rm -it --name kafka-client -p 3000:3000 zirkel-kafka-adapter:0.0.1-debug
+$ docker run --rm -it --name kafka-client -p 3000:3000 kafka-adapter:0.0.1-debug
 
 # Open new command prompt and run
 $ docker ps
