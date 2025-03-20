@@ -1,0 +1,9 @@
+{
+    "BatteryService": {
+        "BatteryService": "5155",
+        "transactionID" : "transactionID"
+    },
+    "OPCUADataPoints":{
+        "OPCUAService" : "5033"
+    }
+}
