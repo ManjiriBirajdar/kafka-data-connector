@@ -1,4 +1,4 @@
-# kafka-adapter-service
+# kafka-data-connector-service
 kafka-adapter makes it possible to receive the events/messages coming from ASCon Digital Twin's Kafka Broker and, send it to the to the Arxum blockchain as digital chain of evidence.
 
 <p align="center">
